@@ -5,3 +5,5 @@ Installation:
 Create symlinks:
 	
 	ln -s ~/dotfiles/vimrc ~/.vimrc
+	git submodule init
+	git submodule update
