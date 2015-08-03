@@ -1,7 +1,8 @@
 execute pathogen#infect()
 
 syntax on
-filetype plugin indent on
+set background=dark
+color codeschool
 
 if has("autocmd")
   filetype plugin indent on
