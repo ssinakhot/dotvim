@@ -10,3 +10,6 @@
 [submodule "bundle/vim-windowswap"]
 	path = bundle/vim-windowswap
 	url = https://github.com/wesQ3/vim-windowswap
+[submodule "bundle/vim-airline"]
+	path = bundle/vim-airline
+	url = https://github.com/bling/vim-airline
