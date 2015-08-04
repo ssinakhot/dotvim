@@ -68,6 +68,7 @@ inoremap <F1> <ESC>
 nnoremap <F1> <ESC>
 vnoremap <F1> <ESC>
 
+set pastetoggle=<F2>
 au FocusLost * :wa
 
 " split and switch focus
