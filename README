@@ -21,3 +21,16 @@ Updating all bundled plugins:
 	
 	cd ~/.vim/bundle
 	git submodule foreach git pull origin master
+
+powerline fontconfig
+
+wget https://github.com/Lokaltog/powerline/raw/develop/font/PowerlineSymbols.otf https://github.com/Lokaltog/powerline/raw/develop/font/10-powerline-symbols.conf
+sudo mv PowerlineSymbols.otf /usr/share/fonts/
+sudo fc-cache -vf
+sudo mv 10-powerline-symbols.conf /etc/fonts/conf.d/
+
+Use this method only if "Fontconfig" method doesn't work for you or you're using a terminal other than mentioned above.
+
+Download the font of your choice from powerline-fonts.
+Move your patched font to ~/.fonts/ for per user installation or /usr/share/fonts for system wide installation.
+Run fc-cache -vf ~/.fonts to update your font cache, sudo fc-cache -vf to do it system wide.
