@@ -1,11 +1,13 @@
 execute pathogen#infect()
 syntax on
 set background=dark
+color apprentice
+"let g:solarized_termcolors=256
+"color solarized
 "color distinguished
-color jellybeans 
+"color jellybeans 
 "color grb256
 "color codeschool
-set t_Co=256
 
 set nocompatible
 
