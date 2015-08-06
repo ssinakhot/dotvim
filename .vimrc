@@ -1,7 +1,11 @@
 execute pathogen#infect()
 syntax on
 set background=dark
-color codeschool
+"color distinguished
+color jellybeans 
+"color grb256
+"color codeschool
+set t_Co=256
 
 set nocompatible
 
