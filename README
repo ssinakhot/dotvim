@@ -34,3 +34,18 @@ Use this method only if "Fontconfig" method doesn't work for you or you're using
 Download the font of your choice from powerline-fonts.
 Move your patched font to ~/.fonts/ for per user installation or /usr/share/fonts for system wide installation.
 Run fc-cache -vf ~/.fonts to update your font cache, sudo fc-cache -vf to do it system wide.
+
+Work settings
+set columns=121
+
+For VisVIM
+Need arrow keys for autocomplete
+" new vim users binding removed
+"nnoremap <up> <nop>
+"nnoremap <down> <nop>
+"nnoremap <left> <nop>
+"nnoremap <right> <nop>
+"inoremap <up> <nop>
+"inoremap <down> <nop>
+"inoremap <left> <nop>
+"inoremap <right> <nop>
