@@ -1,6 +1,6 @@
 Installation:
 
-	git clone git://github.com/xolus/dotvim.git ~/.vim
+	git clone git://github.com/ssinakhot/dotvim.git ~/.vim
 
 Create symlinks:
 	
@@ -9,7 +9,7 @@ Create symlinks:
 Install submodule:
 	
 	cd ~/.vim/bundle
-	git submodule add https://***
+	git submodule add https://*** (url here)
 
 Update submodule per plugin:
 	
