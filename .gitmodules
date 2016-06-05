@@ -19,3 +19,6 @@
 [submodule "bundle/Apprentice"]
 	path = bundle/Apprentice
 	url = https://github.com/romainl/Apprentice.git
+[submodule "bundle/jedi-vim"]
+	path = bundle/jedi-vim
+	url = https://github.com/davidhalter/jedi-vim.git
