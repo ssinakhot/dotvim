@@ -1,4 +1,4 @@
-Installation:
+Istallation:
 
 	git clone git://github.com/ssinakhot/dotvim.git ~/.vim
 
@@ -18,9 +18,10 @@ Update submodule per plugin:
 	git submodule update
 
 Updating all bundled plugins:
-	
-	cd ~/.vim/bundle
-	git submodule foreach git pull origin master
+
+  cd ~/.vim
+  git submodule init
+  git submodule update
 
 powerline fontconfig
 
