@@ -10,6 +10,9 @@ color apprentice
 "color grb256
 "color codeschool
 
+map <F2> :.w !pbcopy<CR><CR>
+map <F3> :r !pbpaste<CR>
+
 set nocompatible
 
 set modelines=0
@@ -34,7 +37,6 @@ set ruler
 set backspace=indent,eol,start
 set laststatus=2
 set relativenumber
-set undofile
 
 let mapleader = ","
 
@@ -75,7 +77,7 @@ inoremap <F1> <ESC>
 nnoremap <F1> <ESC>
 vnoremap <F1> <ESC>
 
-set pastetoggle=<F2>
+set pastetoggle=<F4>
 au FocusLost * :wa
 
 " split and switch focus
