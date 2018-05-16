@@ -106,3 +106,7 @@ autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 autocmd vimenter * NERDTree
 autocmd VimEnter * wincmd p
+
+autocmd Filetype json setlocal ts=2 sw=2 sts=2
+autocmd Filetype javascript setlocal ts=2 sw=2 sts=2
+autocmd Filetype typescript setlocal ts=2 sw=2 sts=2
