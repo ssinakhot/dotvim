@@ -47,7 +47,7 @@ nnoremap / /\v
 vnoremap / /\v
 set ignorecase
 set smartcase
-set gdefault
+"set gdefault
 set incsearch
 set showmatch
 set hlsearch
@@ -110,3 +110,5 @@ autocmd VimEnter * wincmd p
 autocmd Filetype json setlocal ts=2 sw=2 sts=2
 autocmd Filetype javascript setlocal ts=2 sw=2 sts=2
 autocmd Filetype typescript setlocal ts=2 sw=2 sts=2
+autocmd Filetype html setlocal ts=2 sw=2 sts=2
+autocmd Filetype json setlocal foldmethod=syntax
